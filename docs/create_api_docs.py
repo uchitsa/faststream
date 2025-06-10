@@ -307,7 +307,6 @@ def _generate_api_docs_for_module() -> Tuple[str, str]:
     src = """                    - [ContactDict](api/faststream/asyncapi/schema/info/ContactDict.md)
 """
     dst = """                    - [ContactDict](api/faststream/asyncapi/schema/info/ContactDict.md)
-                        - [EmailStr](api/faststream/asyncapi/schema/info/EmailStr.md)
 """
     api_summary = api_summary.replace(src, dst)
 
